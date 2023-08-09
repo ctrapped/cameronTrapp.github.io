@@ -20,12 +20,12 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Caleb Choban
+title:                 Cameron Trapp
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal website of Caleb Choban - PhD Candidate in Physics at UC San Diego.
+  Personal website of Cameron Trapp - PhD Candidate in Physics at UC San Diego.
 
 # A shorter description for the sidebar.
 tagline:               Computational Astrophysicists <br> Interstellar Dust Nerd <br> UC San Diego
@@ -41,10 +41,10 @@ logo:                  /assets/img/portrait.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Caleb Choban
-  email:               <calebchoban@gmail.com>
+  name:                Cameron Trapp
+  email:               <ctrapped@gmail.com>
   # # Used by `jekyll-seo-tag`:
-  twitter:             cchoban
+  twitter:             ctrapp
 
 # Add links to the sidebar.
 menu:
@@ -68,7 +68,7 @@ legal:
     url:               /NOTICE/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2022 Caleb Choban. All rights reserved.
+copyright:             © 2023 Cameron Trapp. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
