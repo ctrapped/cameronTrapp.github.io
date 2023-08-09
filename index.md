@@ -39,15 +39,15 @@ In addition to research, I run the Young Physicists Program ([YPP](https://ypp.u
 In my spare time I enjoy hiking and camping, as well as designing video games in Unity and Unreal Engine 5.
 
 
-![Expo Day 2020](./assets/img/2020_expo_day.jpg){: width="500" height="100" loading="lazy"} 
+![Expo Day 2020](./assets/img/ypp.jpg){: width="500" height="100" loading="lazy"} 
 
 
 <div class="body-social sidebar-social">
   <ul>
-    <li> <a href="https://www.linkedin.com/in/cchoban" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">LinkedIn profile</span></a></li>
-    <li> <a href="https://orcid.org/0000-0001-9200-169X" title="Orcid" class="no-mark-external" target="_blank"> <span class="icon-orcid2"></span> <span aria-hidden="true">Orcid </span><span class="sr-only">LinkedIn profile</span></a></li>
-    <li> <a href="https://twitter.com/cchoban" title="Twitter" class="no-mark-external" target="_blank"> <span class="icon-twitter"></span> <span aria-hidden="true">Twitter </span><span class="sr-only">Twitter profile</span></a></li>
-    
+    <li> <a href="https://www.linkedin.com/in/cameron-trapp-89a854120/" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">LinkedIn profile</span></a></li>
+    <li> <a href="https://orcid.org/0000-0001-7813-0268" title="Orcid" class="no-mark-external" target="_blank"> <span class="icon-orcid2"></span> <span aria-hidden="true">Orcid </span><span class="sr-only">LinkedIn profile</span></a></li>
+    <!--<li> <a href="https://twitter.com/cchoban" title="Twitter" class="no-mark-external" target="_blank"> <span class="icon-twitter"></span> <span aria-hidden="true">Twitter </span><span class="sr-only">Twitter profile</span></a></li>    -->
+
   </ul>
 </div>
 
@@ -61,41 +61,66 @@ In my spare time I enjoy hiking and camping, as well as designing video games in
 
 <h3 class="h2">Radial Flows of Gas</h3>
 
-Brief Description of First Paper.
+Observations indicate that a continuous supply of gas is needed to maintain observed star formation rates
+in large, disky galaxies. To fuel star formation, gas must reach the inner regions of such galaxies. Despite
+its crucial importance for galaxy evolution, how and where gas joins galaxies is poorly constrained
+observationally and rarely explored in fully cosmological simulations. To investigate gas accretion in the
+vicinity of galaxies at low redshift, we analyzed the FIRE-2 cosmological zoom-in simulations for 4 Milky
+Way mass galaxies, focusing on simulations with cosmic ray physics. We found that near present times, gas approaches
+the disk with angular momentum similar to the gaseous disk edge with an average velocity of 10-20 km/s, piling-up near
+the edge and settling into full rotational support. Accreting gas moves predominantly parallel to the disk
+and joins largely in the outskirts. Immediately prior to joining the disk, trajectories briefly become more
+vertical on average. Within the disk, gas motion is more complex, being dominated by spiral arm induced
+oscillations and feedback. However, time and azimuthal averages show slow net radial infall with transport
+speeds of 1-3 km/s and net mass fluxes through the disk of M_Solar/yr , comparable to the galaxies' star
+formation rates and decreasing towards galactic center as gas is sunk into star formation.
 
-
-<!-- Put image and youtube video in a table to make them side by side -->
+<!-- Put image and youtube video in a table to make them side by side 
 <table><tr>
 <td style="width:50%;background:transparent;border:none;" >
 <img width="500" height="600" src="./assets/img/dust_no_dust_galaxy.jpg"></td>
 <td style="width:50%;background:transparent;border:none;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8bRy5VDJsTI" frameborder="0" allow="encrypted-media;" allowfullscreen></iframe></td>
 </tr></table>
-
-Add Text Here
+-->
 
 <figure>
-    <img align="right" width="600" height="100" src="./assets/img/dust_lifecycle.jpg" style="margin:0px 50px">
+    <img align="right" width="600" height="100" src="./assets/img/CR_RadVelMaps.png" style="margin:0px 50px">
 </figure>
 
-  * **Dust Creation**: The initial seeds' of the dust population are created in the stellar ejecta of SNe and AGB winds where a portion of ejected metals condense into dust. Once these 'seeds' have been created they spend their life in the ISM and/or the galactic halo where they are exposed to various processes. 
-  * **Gas-Dust Accretion**: In cool, dense phases of the ISM, gas-phase metals accrete onto the surface of preexisting dust grains growing the grains over time. This is believed to be the main source of dust mass in the MW. 
-  * **SNe Shocks**: As supernovae remnants propagate through the ISM they destroy and shatter dust grains residing in the ISM via grain-grain collisions, thermal sputtering, and non-thermal sputtering. This is believed to be the main destroyer of dust in the MW. 
-  * **Astration**: As gas cools and collapses forming stars, dust residing in said gas is also destroyed and contributes to the stellar metallicity. 
-  * **Thermal Sputtering**: Dust grains residing in hot gas, such as in the galactic halo, are eroded and destroyed by energetic atoms.
 
 
 <h3 class="h2">Torques and Angular Momentum Transfer</h3>
 
-Description of Torque Project here.
+A natural follow up to our previous study on how gas moves onto and through Milky-way like galaxies is to investigate the
+ physical mechanisms that are driving these flows. To accomplish this, we need to dive into the various sources of torques
+ in our simulations to understand where the angular momentum is being transferred to allow this gas to move radially inwards.
+ To this effect, we modified the FIRE-2 CR+ code used in our previous study to track and output various sources of torque,
+ including gravitational torques, MHD torques associated with the Riemann Solver, torques arising from forces do to radiative transfer,
+ as well as torques from the direct momentum injection of stellar feedback, including supernovae and stellar winds. We ultimately found 
+ a complex interaction in these gas flows, predominantly governed by the gravitational and hydrodynamical torques, with the torques 
+ from supernovae playing an interesting role as well. Ultimately, the hydrodynamical torques serve to transfer angular momentum from
+ the outer disk, allowing this gas to move radially inwards and fuel star formation. This angular momentum is either transferred outside of the disk via pressure torques, or to the interior regions of the disk
+ via the mass flux terms in the hydro solver. Once in these regions, the dark matter halo and stellar structures are able to more efficiently act as a sink for angular momentum through gravitational torques, allowing for a net inflow of gas in the system.
 
 <h3 class="h2">Synthetic Observations and Machine Learning</h3>
 
-Description of CNN Project here.
+While we find overall consistency of our results and observational constraints, more detailed comparisons are needed to test
+the underlying model. Our current directions focus on making synthetic HI observations of our simulated galaxies
+for more direct comparisons of how these inflow signatures may observationally manifest and ultimately
+aid in the interpretation of observational data. While standard Tilted Ring Models have been used to estimate gas motion
+in galaxies for decades, the complex radial velocity structures seen within our galaxies, coupled with the relatively low azimuthally
+averaged velocities would prove difficult to fit. To overcome this, we designed a 3-D Convolutional U-Net that reads in the full spectral data cube
+of HI observations and outputs a corresponding 2D map of Radial Mass Flux. The neural network has currently been trained on 20 different galaxies from the
+core FIRE-2 runs, as well as the CR+ runs. A synthetic image was generated for 10 snapshots for each galaxy, each at 6 different inclinations for a total of 1200 images.
+When applied to actual HI data with stable Tilted Ring fits, our network is able to reproduce the radial mass flux curves. Future directions for this project include
+adding in additional simulation suites to the training set, so as not to be overly biased towards the types of galaxies in the FIRE simulations, fitting additional
+parameters, and fitting 3D spatial maps to visualize observed galaxies.
 
 
-
-
+<figure>
+    <img align="right" width="600" height="100" src="./assets/img/MF_no_m12m.png" style="margin:0px 50px">
+</figure>
 
 
 
@@ -108,14 +133,21 @@ Description -->
 ---
 <h2 class="h1" style="color: {{site.theme_color}}" id="publications">Publications </h2>
 
+<!-- 
 A full list of my publications can be found on ADS [here](https://ui.adsabs.harvard.edu/public-libraries/-Gcrfa83Qq2xs8ndJylF0A).
+ -->
 
-
-<!--   
+  
 <h3 class="h2">First Author Publications</h3>
+[Gas infall and radial transport in cosmological simulations of Milky Way-mass discs](https://academic.oup.com/mnras/article/509/3/4149/6424962)
+[On the detection of high frequency correlations in resting state fMRI](https://www.sciencedirect.com/science/article/abs/pii/S1053811917300824?via%3Dihub)
 
+<h3 class="h2">Additional Publications</h3>
+[The impact of cosmic rays on dynamical balance and disc–halo interaction in L-star disc galaxies](https://academic.oup.com/mnras/article/517/1/597/6672585)
+[Hot-mode accretion and the physics of thin-disc galaxy formation](https://academic.oup.com/mnras/article/514/4/5056/6608273)
+[Real-Time Resting-State Functional Magnetic Resonance Imaging Using Averaged Sliding Windows with Partial Correlations and Regression of Confounding Signals](https://www.liebertpub.com/doi/10.1089/brain.2020.0758)
 
-
+<!-- 
 <h3 class="h2">Presentations</h3>
  -->
   
