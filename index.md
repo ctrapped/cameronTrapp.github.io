@@ -29,9 +29,6 @@ cover: true
  I'm Cameron Trapp, a PhD candidate in [Physics](https://physics.ucsd.edu/) and [Astronomy](https://astronomy.ucsd.edu/) at UC San Diego working in collaboration with Prof. [Dušan Kereš](https://cass.ucsd.edu/index.php/faculty:Dkeres). My research is focused on analyzing gas flows onto and through Milky-Way mass galactic disks utilizing cosmological zoom-in simulations as part of the Feedback in Realistic Environments ([FIRE](https://fire.northwestern.edu/)) collaboration. I am currently focused on analyzing various sources of Torque on this accreting gas to understand how it radially transporting to fuel star forming regions in the inner disk. I am also working on creating a suite of synthetic HI observations in order to train a convolutional neural network to aid in interpretation of actual observation and facilitate direct observational comparisons. 
 
 
-<figure>
-    <img align="right"  width="500" height="100" src="./assets/img/2019_space_day.jpg">
-</figure>
 
 In addition to research, I run the Young Physicists Program ([YPP](https://ypp.ucsd.edu/)), an outreach organization that engages middle and high schoolers in actual physics experiments. Students are able to work directly with a variety of experiments, including mechanics, circuits, radioactive decay, and the infamous egg drop. In addition to managing/soliciting volunteer graduate students and professors, I work directly with the students during experiments and more advanced demonstrations. 
 
@@ -61,6 +58,11 @@ In my spare time I enjoy hiking and camping, as well as designing video games in
 
 <h3 class="h2">Radial Flows of Gas</h3>
 
+<figure>
+    <img align="right" width="600" height="100" src="./assets/img/CR_RadVelMaps.png" style="margin:0px 50px">
+</figure>
+
+
 Observations indicate that a continuous supply of gas is needed to maintain observed star formation rates
 in large, disky galaxies. To fuel star formation, gas must reach the inner regions of such galaxies. Despite
 its crucial importance for galaxy evolution, how and where gas joins galaxies is poorly constrained
@@ -84,9 +86,6 @@ formation rates and decreasing towards galactic center as gas is sunk into star 
 </tr></table>
 -->
 
-<figure>
-    <img align="right" width="600" height="100" src="./assets/img/CR_RadVelMaps.png" style="margin:0px 50px">
-</figure>
 
 
 
@@ -105,6 +104,10 @@ A natural follow up to our previous study on how gas moves onto and through Milk
 
 <h3 class="h2">Synthetic Observations and Machine Learning</h3>
 
+<figure>
+    <img align="right" width="600" height="100" src="./assets/img/MF_no_m12m.png" style="margin:0px 50px">
+</figure>
+
 While we find overall consistency of our results and observational constraints, more detailed comparisons are needed to test
 the underlying model. Our current directions focus on making synthetic HI observations of our simulated galaxies
 for more direct comparisons of how these inflow signatures may observationally manifest and ultimately
@@ -118,9 +121,7 @@ adding in additional simulation suites to the training set, so as not to be over
 parameters, and fitting 3D spatial maps to visualize observed galaxies.
 
 
-<figure>
-    <img align="right" width="600" height="100" src="./assets/img/MF_no_m12m.png" style="margin:0px 50px">
-</figure>
+
 
 
 
@@ -140,11 +141,14 @@ A full list of my publications can be found on ADS [here](https://ui.adsabs.harv
   
 <h3 class="h2">First Author Publications</h3>
 [Gas infall and radial transport in cosmological simulations of Milky Way-mass discs](https://academic.oup.com/mnras/article/509/3/4149/6424962)
+
 [On the detection of high frequency correlations in resting state fMRI](https://www.sciencedirect.com/science/article/abs/pii/S1053811917300824?via%3Dihub)
 
 <h3 class="h2">Additional Publications</h3>
 [The impact of cosmic rays on dynamical balance and disc–halo interaction in L-star disc galaxies](https://academic.oup.com/mnras/article/517/1/597/6672585)
+
 [Hot-mode accretion and the physics of thin-disc galaxy formation](https://academic.oup.com/mnras/article/514/4/5056/6608273)
+
 [Real-Time Resting-State Functional Magnetic Resonance Imaging Using Averaged Sliding Windows with Partial Correlations and Regression of Confounding Signals](https://www.liebertpub.com/doi/10.1089/brain.2020.0758)
 
 <!-- 
