@@ -2,13 +2,13 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              Caleb Choban
-  email:             <calebchoban@gmail.com>
+  name:              Cameron Trapp
+  email:             <ctrapped@gmail.com>
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Personal website of Caleb Choban - PhD Candidate in Physics at UC San Diego.
+    Personal website of Cameron Trapp - PhD Candidate in Physics at UC San Diego.
 
   # This photo will be used in the about section
   picture:
@@ -22,7 +22,7 @@ author1:
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         ctrapp
+    twitter:         cTrapped
     github:          ctrapped
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml

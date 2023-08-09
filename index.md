@@ -43,7 +43,7 @@ In my spare time I enjoy hiking and camping, as well as designing video games in
   <ul>
     <li> <a href="https://www.linkedin.com/in/cameron-trapp-89a854120/" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">LinkedIn profile</span></a></li>
     <li> <a href="https://orcid.org/0000-0001-7813-0268" title="Orcid" class="no-mark-external" target="_blank"> <span class="icon-orcid2"></span> <span aria-hidden="true">Orcid </span><span class="sr-only">LinkedIn profile</span></a></li>
-    <!--<li> <a href="https://twitter.com/cchoban" title="Twitter" class="no-mark-external" target="_blank"> <span class="icon-twitter"></span> <span aria-hidden="true">Twitter </span><span class="sr-only">Twitter profile</span></a></li>    -->
+    <!--<li> <a href="https://twitter.com/ctrapp" title="Twitter" class="no-mark-external" target="_blank"> <span class="icon-twitter"></span> <span aria-hidden="true">Twitter </span><span class="sr-only">Twitter profile</span></a></li>    -->
 
   </ul>
 </div>
