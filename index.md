@@ -141,6 +141,8 @@ A full list of my publications can be found on ADS [here](https://ui.adsabs.harv
 
   
 <h3 class="h2">First Author Publications</h3>
+[Angular momentum transfer in cosmological simulations of Milky Way-mass discs](https://arxiv.org/abs/2405.01632)
+
 [Gas infall and radial transport in cosmological simulations of Milky Way-mass discs](https://academic.oup.com/mnras/article/509/3/4149/6424962)
 
 [On the detection of high frequency correlations in resting state fMRI](https://www.sciencedirect.com/science/article/abs/pii/S1053811917300824?via%3Dihub)
