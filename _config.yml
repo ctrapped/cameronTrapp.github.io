@@ -25,10 +25,10 @@ title:                 Cameron Trapp
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Personal website of Cameron Trapp - PhD Candidate in Physics at UC San Diego.
+  Personal website of Cameron Trapp - Postdoc at Johns Hopkins University.
 
 # A shorter description for the sidebar.
-tagline:               Computational Astrophysicist <br> UC San Diego
+tagline:               Computational Astrophysicist <br> Johns Hopkins
 
 # A list of keywords for your blog
 keywords:              []

@@ -37,9 +37,6 @@ In addition to research, I ran the Young Physicists Program ([YPP](https://ypp.u
 In my spare time I enjoy hiking and camping, as well as designing video games in Unity and Unreal Engine 5.
 
 
-![Expo Day 2020](./assets/img/ypp.jpg){: width="500" height="100" loading="lazy"} 
-
-
 <div class="body-social sidebar-social">
   <ul>
     <li> <a href="https://www.linkedin.com/in/cameron-trapp-89a854120/" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">LinkedIn profile</span></a></li>
@@ -164,10 +161,10 @@ A full list of my publications can be found on ADS [here](https://ui.adsabs.harv
 
 
 
-Center for Astrophysics and Space Sciences (CASS)   
-University of California San Diego   
-9500 Gilman Drive   
-La Jolla, CA 92093, USA
+Department of Physics and Astronomy  
+Johns Hopkins University
+3400 N. Charles Street
+Baltimore, MD 21218
 
 **ctrap<!-- tyewcnpy -->p [a<!-- juygv -->t] u<!-- tregbijd -->cs<!-- rzyjide --->d [dot] edu**
 {:.lead}
