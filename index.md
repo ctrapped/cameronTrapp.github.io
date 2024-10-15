@@ -3,7 +3,7 @@ layout: page
 name: index
 title: Cameron Trapp
 description: >
-  Personal Website of Cameron Trapp, PhD Candidate in Physics at UC San Diego.
+  Personal Website of Cameron Trapp, Postdoc at Johns Hopkins University.
 hide_description: true
 cover: true
 ---
@@ -26,11 +26,12 @@ cover: true
 
 <h2 class="h1" style="color: {{site.theme_color}}" id="about">About Me </h2>
 
- I'm Cameron Trapp, a PhD candidate in [Physics](https://physics.ucsd.edu/) and [Astronomy](https://astronomy.ucsd.edu/) at UC San Diego working in collaboration with Prof. [Dušan Kereš](https://cass.ucsd.edu/index.php/faculty:Dkeres). My research is focused on analyzing gas flows onto and through Milky-Way mass galactic disks utilizing cosmological zoom-in simulations as part of the Feedback in Realistic Environments ([FIRE](https://fire.northwestern.edu/)) collaboration. I am currently focused on analyzing various sources of Torque on this accreting gas to understand how it radially transporting to fuel star forming regions in the inner disk. I am also working on creating a suite of synthetic HI observations in order to train a convolutional neural network to aid in interpretation of actual observation and facilitate direct observational comparisons. 
+I'm Cameron Trapp, a Postdoc in the [Physics & Astronomy Department](https://physics-astronomy.jhu.edu/) at Johns Hopkins University working in the the [FOGGIE collaboration](https://foggie.science/index.html). 
+ 
+I recently completed my PhD in collaboration with Prof. [Dušan Kereš](https://cass.ucsd.edu/index.php/faculty:Dkeres) at the University of California, San Diego. My doctoral research focused on analyzing gas flows onto and through Milky-Way mass galactic disks utilizing cosmological zoom-in simulations as part of the Feedback in Realistic Environments ([FIRE](https://fire.northwestern.edu/)) collaboration. In addition, I analyzed various sources of Torque on this accreting gas to understand how it radially transports to fuel star forming regions in the inner disk. I am also working on creating a suite of synthetic HI observations in order to train convolutional neural networks to aid in interpretation of observations and facilitate direct observational comparisons. 
 
 
-
-In addition to research, I run the Young Physicists Program ([YPP](https://ypp.ucsd.edu/)), an outreach organization that engages middle and high schoolers in actual physics experiments. Students are able to work directly with a variety of experiments, including mechanics, circuits, radioactive decay, and the infamous egg drop. In addition to managing/soliciting volunteer graduate students and professors, I work directly with the students during experiments and more advanced demonstrations. 
+In addition to research, I ran the Young Physicists Program ([YPP](https://ypp.ucsd.edu/)), an outreach organization that engages middle and high schoolers in actual physics experiments. Students are able to work directly with a variety of experiments, including mechanics, circuits, radioactive decay, and the infamous egg drop. In addition to managing/soliciting volunteer graduate students and professors, I work directly with the students during experiments and more advanced demonstrations. 
 
 
 In my spare time I enjoy hiking and camping, as well as designing video games in Unity and Unreal Engine 5.
